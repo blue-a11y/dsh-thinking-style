@@ -1,7 +1,7 @@
 {
   "name": "@blue-a11y/dsh-thinking-style",
-  "description": "Customize Thinking text, shimmer effects, and display language in DeepSeek Harness.",
-  "version": "1.0.0",
+  "description": "Restore the original DeepSeek Harness Thinking style: typography, blue shimmer, sweeping highlights, and a choice of thinking language.",
+  "version": "1.0.1",
   "type": "module",
   "peerDependencies": {
     "@deepseek-ai/schemastery": "^3.18.5"

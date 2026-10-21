@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Thinking 样式",
-    "description": "自定义 Thinking 状态的文字样式、流光效果与显示语言。"
+    "description": "还原 DeepSeek Harness 初版 Thinking 样式，恢复字号、蓝色流光与思考行扫光，支持思考区域语言选择。"
   }
 }

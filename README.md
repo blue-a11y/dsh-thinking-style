@@ -1,13 +1,13 @@
 # Thinking 样式 · Thinking Style
 
-自定义 DeepSeek Harness Thinking 状态的文字样式、流光效果与显示语言。
+还原 DeepSeek Harness 初版 Thinking 样式，恢复字号、蓝色流光与思考行扫光，支持思考区域语言选择。
 
-Customize Thinking text, shimmer effects, and display language in DeepSeek Harness.
+Restore the original DeepSeek Harness Thinking style: typography, blue shimmer, sweeping highlights, and a choice of thinking language.
 
 ## 功能
 
-- 蓝色 Thinking 状态文字和图标，连续流光效果。
-- 思考内容使用统一字号、行高与浅色扫光。
+- 还原初版 Thinking 状态行的字号、行高、蓝色文字与连续流光。
+- 还原思考内容的字号、行高与思考行的浅色扫光。
 - 思考区域语言可选「跟随 DSH」「English」「中文」，自动保存。
 - 保留 DSH 原生耗时展示和计时方式。
 - 跟随宿主主题，并支持系统的减少动态效果设置。
@@ -33,7 +33,7 @@ dsh plugin --profile web add @blue-a11y/dsh-thinking-style
 也可以安装 GitHub 上的指定版本：
 
 ```sh
-dsh plugin --profile web add github:blue-a11y/dsh-thinking-style#v1.0.0
+dsh plugin --profile web add github:blue-a11y/dsh-thinking-style#v1.0.1
 ```
 
 本包直接分发 JavaScript，无需安装时构建。若此前安装过 `@local/dsh-thinking-style` 或 `@local/dsh-think-v1`，请先移除旧的本地插件，避免同时启用两个版本。
